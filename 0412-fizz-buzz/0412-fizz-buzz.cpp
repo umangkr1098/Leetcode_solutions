@@ -14,7 +14,9 @@ public:
                 ans.push_back("Buzz");
             }
             else{
-                ans.push_back(to_string(i));}}
-        return ans;
+                ans.push_back(to_string(i));
+            }
         }
+        return ans;
+    }
 };
