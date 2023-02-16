@@ -8,11 +8,12 @@ public:
              j++;  
          }
          else{
-            //ans.push_back(nums[i]);
-             nums[i-j]=nums[i];
+            ans.push_back(nums[i]);
+             //nums[i-j]=nums[i];
          }
      } 
-        return nums.size()-j;
+        nums=ans;
+        return nums.size();
     }
     
 };
