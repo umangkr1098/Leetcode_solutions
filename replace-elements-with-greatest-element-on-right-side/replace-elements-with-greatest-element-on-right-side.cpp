@@ -4,7 +4,6 @@ public:
     {
         int n=arr.size();
         vector<int>v(n);
-        //int t=-1;
         v[n-1]=-1;
         for(int i=n-2;i>=0;i--)
         {
