@@ -8,12 +8,6 @@ public:
                swap(nums[j],nums[i]);
                 j++;
             }
-            
         }
-        // for(;j<nums.size();j++)
-        // {
-        //     nums[j]=0;
-        // }
-        
-    }
+     }
 };
