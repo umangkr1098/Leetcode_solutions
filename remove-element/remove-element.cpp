@@ -9,7 +9,6 @@ public:
          }
          else{
             ans.push_back(nums[i]);
-             //nums[i-j]=nums[i];
          }
      } 
         nums=ans;
