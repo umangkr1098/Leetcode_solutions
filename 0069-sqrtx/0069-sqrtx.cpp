@@ -1,7 +1,8 @@
 class Solution {
 public:
     int mySqrt(int x) {
-        x = sqrt(x);
-    return x;
+        int a;
+        a = sqrt(x);
+    return a;
     }
 };
