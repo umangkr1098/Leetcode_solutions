@@ -5,13 +5,10 @@ public:
         int count =0;
         sort(nums.begin(),nums.end());
         for(int i=0;i<nums.size();i++)
-        {
-            if(nums[i]!=i){
+        {if(nums[i]!=i){
                 ans=i;
                 count++;
-                break;
-            }
-               
+                break;}       
         }
         if(count==0){
             return nums.size();
