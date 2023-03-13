@@ -20,8 +20,7 @@ public:
                 break;
               }
                else
-                 e=mid-1;
-                
+                 e=mid-1;  
             }
         }
         
