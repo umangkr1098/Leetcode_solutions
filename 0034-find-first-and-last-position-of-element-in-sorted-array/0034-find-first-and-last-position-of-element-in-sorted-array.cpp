@@ -42,11 +42,9 @@ public:
                 break;
               }
                else
-                 s1=mid1+1;
-                
+                 s1=mid1+1;  
             }
         }
-      return v;      
-        
+      return v;         
     }
 };
