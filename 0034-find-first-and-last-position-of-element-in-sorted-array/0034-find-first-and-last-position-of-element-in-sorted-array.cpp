@@ -13,6 +13,7 @@ public:
             else if(target>nums[mid])
                 s=mid+1;
             else
+             //remember this case   
             { if(mid==0 || nums[mid]!=nums[mid-1])
               {
                 v[0]=mid;
@@ -33,6 +34,7 @@ public:
                 e1=mid1-1;
             else if(target>nums[mid1])
                 s1=mid1+1;
+         //remember this case
             else
             { if(mid1==n-1 || nums[mid1]!=nums[mid1+1])
               {
