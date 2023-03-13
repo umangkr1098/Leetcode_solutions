@@ -12,13 +12,11 @@ public:
         while(s<=e)
         {    mid=s+(e-s)/2;
             if(isBadVersion(mid))
-            {
-                ans=mid;
-                e=mid-1;
+            { ans=mid;
+              e=mid-1;
             }
             else
-                s=mid+1;
-        }
+                s=mid+1;}
        return ans; 
     }
 };
