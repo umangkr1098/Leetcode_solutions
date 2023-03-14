@@ -9,12 +9,8 @@ public:
         sort(nums1.begin(),nums1.end());
         
         if(nums1.size()%2==0)
-        {
-            int s=0;
-            int e=nums1.size();
-            int mid = s+(e-s)/2;
-            
-            double ans = (float)(nums1[mid]+nums1[mid-1])/2;
+        {   int n = nums1.size()/2;
+            double ans = (float)(nums1[n]+nums1[n-1])/2;
             return ans;
             
         }
