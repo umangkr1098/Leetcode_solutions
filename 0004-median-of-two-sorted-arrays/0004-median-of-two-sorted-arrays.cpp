@@ -10,8 +10,8 @@ public:
         
         if(nums1.size()%2==0)
         {   int n = nums1.size()/2;
-            double ans = (float)(nums1[n]+nums1[n-1])/2;
-            return ans;
+            return (float)(nums1[n]+nums1[n-1])/2;
+            
             
         }
         else
