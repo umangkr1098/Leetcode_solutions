@@ -6,8 +6,7 @@ public:
          for(int i=1;i<=sqrt(area);i++)
          {
              if(area%i==0)
-                 width=i;
-             
+                 width=i;   
          }
         ans.push_back(area/width);
         ans.push_back(width);
