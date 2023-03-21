@@ -16,11 +16,8 @@ public:
      for(int j=temp.size()-1;j>=0;j--)
      {
          ans.push_back(temp[j]);
-     }
-        
+     }   
     }
-     
-     return ans;
-        
+     return ans;  
     }
 };
