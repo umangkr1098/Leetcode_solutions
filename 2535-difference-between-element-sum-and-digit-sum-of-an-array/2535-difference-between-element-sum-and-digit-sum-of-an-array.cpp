@@ -14,8 +14,7 @@ public:
              {
                n=nums[i]%10;
                nums[i]=nums[i]/10;
-               sum2+=n;
-                
+               sum2+=n;  
              }
            
          }
