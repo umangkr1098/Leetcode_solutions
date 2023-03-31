@@ -16,7 +16,6 @@ public:
                nums[i]=nums[i]/10;
                sum2+=n;  
              }
-           
          }
         
         return abs(sum-sum2);
