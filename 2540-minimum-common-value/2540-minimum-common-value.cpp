@@ -7,8 +7,7 @@ public:
         int i=0;
         int j=0;
         while(i<a&&j<b)
-        {
-            if(nums1[i]>nums2[j])
+        {   if(nums1[i]>nums2[j])
                 j++;
             else if(nums1[i]<nums2[j])
                 i++;
@@ -16,6 +15,6 @@ public:
                 ans=nums1[i];
                  break;}
         }
-        return ans;
+return ans;
     }
 };
