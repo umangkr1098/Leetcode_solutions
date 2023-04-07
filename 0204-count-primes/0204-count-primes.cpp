@@ -14,14 +14,10 @@ public:
                prime[j]=false; 
             }
         }
-    }
-     
+    } 
     for(int i=2;i<n;i++)
-    {
-        if(prime[i])
-            count++;
-    }
+    {if(prime[i])
+            count++;}
     return count;
-     
     }
 };
