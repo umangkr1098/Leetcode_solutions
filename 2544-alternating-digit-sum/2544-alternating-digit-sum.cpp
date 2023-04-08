@@ -7,10 +7,10 @@ public:
             v.push_back(k%10);
             k=k/10;
         }
-    int sze=v.size();  
+    int size=v.size();  
     int l=1;
     int sum=0;  
- for(int i=sze-1; i>=0; i--){
+ for(int i=size-1; i>=0; i--){
 sum+=v[i]*l;
 l=l*(-1);
  }
