@@ -9,7 +9,7 @@ public:
         { 
          if(s==e)
              return s;
-         if(mid+1<=e && nums[mid]>nums[mid+1])
+         if(mid<=e && nums[mid]>nums[mid+1])
              return mid;
          else if(mid-1>=s && nums[mid-1]>nums[mid])
              return mid-1;
