@@ -17,7 +17,7 @@
 
 <p><strong class="example">Example 3:</strong></p>
 
-<pre><strong>Input:</strong> x = 120
+<pre><strong>Input:</strong> x =120
 <strong>Output:</strong> 21
 </pre>
 
